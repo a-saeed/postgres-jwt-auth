@@ -1,0 +1,4 @@
+node_modules
+.env
+app_api/lib/keys/id_rsa_priv.pem
+app_api/lib/keys/id_rsa_pub.pem
