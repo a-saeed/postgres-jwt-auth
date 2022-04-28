@@ -10,7 +10,6 @@ userRouter.post('/register', register)
 userRouter.post('/login', login);
 
 /* -- protected route that can only be accessed by users with a valid token - */
-//userRouter.get('/protected', passport.authenticate('jwt', {session: false}), protect);
-
+userRouter.get('/protected', passport.authenticate('jwt', {session: false}), protect);
 
 export default userRouter;

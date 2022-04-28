@@ -47,6 +47,6 @@ export const login = async (req, res, next) => {
     }
 }
 //this route is protected in the routes folder
-/*export const protect = (req, res, next) => {
+export const protect = (req, res, next) => {
     res.status(200).json({msg: "you are authorized"})
-} */
+}
